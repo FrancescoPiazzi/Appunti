@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Fisica  ",
+      "color": {
+        "a": 1,
+        "rgb": 2233329
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.0030174563591,
+  "lineSizeMultiplier": 1.12032418952618,
+  "collapse-forces": true,
+  "centerStrength": 0.51140897755611,
+  "repelStrength": 9.59102244389027,
+  "linkStrength": 1,
+  "linkDistance": 135,
+  "scale": 1.0236208378472156,
+  "close": true
+}

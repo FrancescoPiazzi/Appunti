@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "b49869b9cc3d068b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4468130817c5e976",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3e34d1dec1c6cbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Meccanica/Moto armonico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b42fd3a965d33aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "abd323bf8cb2721d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29fccd03829dcc6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aa73c1122a48e6a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80fe8b555ffef94b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 308.5080032348633
+  },
+  "right": {
+    "id": "751c9eac21624fd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c3b6dbcec2f0a1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8311928aaf3c962",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fisica/Meccanica/Moto armonico.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00741069a4e5b1ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fisica/Meccanica/Moto armonico.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6cb57cf8257fc56f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bc1b5a613b1a0426",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fisica/Meccanica/Moto armonico.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e3e34d1dec1c6cbc",
+  "lastOpenFiles": [
+    "Fisica/Termodinamica/Legge dei gas perfetti.md",
+    "Fisica/Meccanica/Moto armonico.md",
+    "Fisica/Meccanica/Pendolo.md",
+    "Fisica/Meccanica/Molle.md",
+    "Fisica/Termodinamica/Teorema di Clausius.md",
+    "Fisica/Meccanica/Forze conservative e non.md",
+    "Fisica/Meccanica/Cinematica e dinamica.md",
+    "Fisica/Meccanica/Attrito radente.md",
+    "Fisica/Termodinamica/Entropia.md",
+    "Fisica/Termodinamica/Calore.md",
+    "Robotica/Report.md",
+    "Robotica/Report_test.pdf",
+    "Fisica/Termodinamica/Trasformazioni termodinamiche di gas.md",
+    "Report.md",
+    "Robotica",
+    "Fisica/Termodinamica/Lavoro e calore.md",
+    "Ctrl+C Ctrl+V.md",
+    "Fisica/Meccanica/img/pendolo.png",
+    "Fisica/Meccanica/img",
+    "Fisica/Meccanica/Nuova cartella",
+    "Fisica/Meccanica/Lavoro.md",
+    "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
+    "Fisica/Termodinamica/Principi della termodinamica.md",
+    "Fisica/Termodinamica/Nozioni generali.md",
+    "Teorema e macchina di Carnot^RendimentoMacchinaTermica.md",
+    "Fisica/Termodinamica/img/Carnot-engine.png",
+    "Fisica/Termodinamica/img/Carnot-engine.jpg.~tmp",
+    "Fisica/Termodinamica/img/Carnot-engine.jpg",
+    "Principi.md",
+    "^CaloreSensibile.md",
+    "Fisica/Termodinamica/img",
+    "Fisica/Termodinamica/img/joule-s-experiment.jpg",
+    "Fisica/joule-s-experiment.jpg.~tmp",
+    "Fisica/Termodinamica/Lavoro termodinamico.md",
+    "Fisica/Meccanica",
+    "Fisica/Termodinamica",
+    "2024-01-21.md",
+    "Fisica/Formulario.canvas",
+    "Fisica/Formulario.md"
+  ]
+}

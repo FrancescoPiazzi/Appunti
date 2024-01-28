@@ -1,0 +1,2 @@
+L'attrito si oppone sempre al verso moto, è proporzionale alla componente della forza peso perpendicolare al piano su cui l'oggetto si trova, e da un numero puro $\mu$ che indica quanto sono "scivolose" le superfici:
+$$ \vec A = \vec{P_\perp} \mu$$

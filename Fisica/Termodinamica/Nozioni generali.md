@@ -1,0 +1,1 @@
+La materia è una forma di energia, quindi un sistema non può scambiare materia senza scambiare energia
