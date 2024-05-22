@@ -13,18 +13,46 @@
         "a": 1,
         "rgb": 2233329
       }
+    },
+    {
+      "query": "path:LFC  ",
+      "color": {
+        "a": 1,
+        "rgb": 15914790
+      }
+    },
+    {
+      "query": "path:Robotics  ",
+      "color": {
+        "a": 1,
+        "rgb": 15894285
+      }
+    },
+    {
+      "query": "path:Machine learning",
+      "color": {
+        "a": 1,
+        "rgb": 4570866
+      }
+    },
+    {
+      "query": "path:Tirocinio  ",
+      "color": {
+        "a": 1,
+        "rgb": 15603479
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.0030174563591,
   "lineSizeMultiplier": 1.12032418952618,
-  "collapse-forces": true,
-  "centerStrength": 0.51140897755611,
-  "repelStrength": 9.59102244389027,
+  "collapse-forces": false,
+  "centerStrength": 0.499501246882793,
+  "repelStrength": 9.50997506234414,
   "linkStrength": 1,
-  "linkDistance": 135,
-  "scale": 1.0236208378472156,
+  "linkDistance": 81,
+  "scale": 0.6822911632585634,
   "close": true
 }

@@ -13,7 +13,7 @@ Che guarda a caso è uguale all'energia potenziale gravitazionale.
 
 Dal punto di vista del calore dell'acqua si ha che:
 ![[Calore#^CaloreSensibile]]
-Nel nostro caso, assumendo un'efficienza della trasformazione di 1 (irragionevole per il [[Principi della termodinamica#Secondo principio|secondo principio della termodinamica]]), il calore trasferito al liquido è lo stesso del lavoro fatto dal peso che cade, quindi abbiamo che
+Nel nostro caso, assumendo un'efficienza della trasformazione di 1 (impossibile per il [[Principi della termodinamica#Secondo principio|secondo principio della termodinamica]], ma possiamo andarci vicini), il calore trasferito al liquido è lo stesso del lavoro fatto dal peso che cade, quindi abbiamo che
 $$ m\ g\ h = c\ m \ \Delta T $$
 Se l'efficienza avesse avuto un valore minore di 1, chiamiamolo $\eta$ (eta), avremmo avuto
 $$ \eta \ m\ g\ h = c\ m \ \Delta T  $$

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Termodinamica.md",
+                "file": "Termodinamica/Trasformazioni termodinamiche di gas.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5080032348633
+    "width": 323.5
   },
   "right": {
     "id": "10486d6a5cfe6158",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Termodinamica.md",
+                "file": "Termodinamica/Trasformazioni termodinamiche di gas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Termodinamica.md",
+                "file": "Termodinamica/Trasformazioni termodinamiche di gas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Termodinamica.md"
+                "file": "Termodinamica/Trasformazioni termodinamiche di gas.md"
               }
             }
           }
@@ -146,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ac7a02732fa8fff",
+  "active": "9de136a16d7bcf9f",
   "lastOpenFiles": [
+    "Termodinamica/Energia interna e calori specifici dei gas.md",
+    "Termodinamica/Trasformazioni termodinamiche di gas.md",
+    "Termodinamica/Lavoro e calore.md",
+    "Meccanica/Lavoro.md",
+    "Termodinamica/Entropia.md",
     "Untitled",
     "Ctrl+C Ctrl+V.md",
     "Termodinamica.md",

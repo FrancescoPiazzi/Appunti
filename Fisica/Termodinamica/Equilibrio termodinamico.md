@@ -1,0 +1,4 @@
+É possibile osservare che un sistema termodinamico lasciato libero di evolversi senza interventi esterni raggiungerà uno stato di equilibrio termodinamico, ovvero uno stato nel quale le [[Variabili termodinamiche|variabili termodinamiche]] non variano più nel tempo, in questo caso queste variabili sono anche dette variabili di stato.
+L'equilibrio termodinamico è raggiunto quando il sistema è in equilibrio meccanico, termico, e chimico. 
+L'equilibrio meccanico di un sistema viene raggiunto quando tutte le sue parti sono in equilibrio, una parte è in equilibrio se la somma delle forze che agiscono su quella parte è uguale a zero. 
+L'equilibrio termico si ha quando tutte le parti di un sistema hanno la stessa temperatura o sono separate da pareti adiabatiche. La temperatura è quindi l'indice dell'equilibrio termico. Considereremo sempre sistemi in equilibrio chimico quindi quest'ultimo non ci interessa.

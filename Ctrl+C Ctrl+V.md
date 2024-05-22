@@ -8,7 +8,7 @@ $$
 E^2 = m^2c^4 + c^2 p^2
 $$
 + $E$ energy
-+ $m$ mess
++ $m$ mass
 + $p$ momentum
 + $c$ speed of light
 ^EinsteinFormula
