@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68846489e5c775ac",
+        "id": "519ff6d470da0d62",
         "type": "tabs",
         "children": [
           {
-            "id": "c4f0f50047b604d3",
+            "id": "b6cbaad203e3fb37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
+                "file": "LFC/Context free languages.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5080032348633
+    "width": 311.5080032348633
   },
   "right": {
     "id": "751c9eac21624fd1",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
+                "file": "LFC/Context free languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
+                "file": "LFC/Context free languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Termodinamica/Teorema e macchina di Carnot.md"
+                "file": "LFC/Context free languages.md"
               }
             }
           }
@@ -146,54 +146,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4f0f50047b604d3",
+  "active": "b6cbaad203e3fb37",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
-    "Fisica/Termodinamica/Teorema di Clausius.md",
-    "Fisica/Termodinamica/Principi della termodinamica.md",
+    "LFC/Notes from the book.md",
     "Fisica/Termodinamica/q&a/Sezione 11.md",
-    "Fisica/Termodinamica/Calore.md",
-    "Fisica/Termodinamica/Energia interna di un gas.md",
-    "Fisica/Termodinamica/q&a/Risposte alle domande del libro.md",
-    "Seconda legge della termodinamica (lezione).md",
-    "Fisica/Termodinamica/Legge dei gas perfetti.md",
-    "Fisica/Termodinamica/Lavoro e calore.md",
-    "Fisica/Termodinamica/Gas reali.md",
-    "Fisica/Termodinamica/Equilibrio termodinamico.md",
-    "Fisica/Termodinamica/Entropia.md",
+    "LFC/feb-2024.md",
+    "x.md",
+    "LFC/Context free languages.md",
+    "LFC/Chomsky's normal form.md",
+    "Tirocinio/2024-07-19.md",
     "Tirocinio/Ore.md",
+    "Computational logic/Homework 3.md",
     "Tirocinio/Note primo incontro.md",
-    "Fisica/Termodinamica/Teoria cinetica dei gas.md",
-    "Fisica/Cuoricini.md",
-    "Fisica/Termodinamica/Variabili termodinamiche.md",
-    "Fisica/Termodinamica/Trasformazioni termodinamiche di gas.md",
+    "Robotics/Report.md",
     "Ctrl+C Ctrl+V.md",
-    "Fisica/Meccanica/Quantità di moto.md",
-    "Fisica/Meccanica/Pendolo.md",
-    "Fisica/Termodinamica/Energia interna e calori specifici di un gas ideale.md",
-    "Trasformazioni termodinamiche di gas^caloreIsocore.md",
-    "Fisica/Termodinamica/Calori specifici di un gas ideale.md",
+    "Fisica/Termodinamica/Seconda legge della termodinamica (lezione).md",
+    "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
+    "LFC/img/PumpingLemma-1.png",
+    "LFC/img/Blank diagram.png",
+    "Fisica/Meccanica/Forze conservative e non.md",
+    "Fisica/Meccanica/Lavoro.md",
+    "Fisica/Meccanica/Molle.md",
+    "Fisica/Termodinamica/Equilibrio termodinamico.md",
+    "Fisica/Termodinamica/Trasmissione del calore.md",
+    "Fisica/Termodinamica/Lavoro e calore.md",
+    "Fisica/Termodinamica/Principi della termodinamica.md",
+    "Fisica/Termodinamica/Energia interna di un gas.md",
+    "Fisica/Termodinamica/Trasformazioni termodinamiche.md",
+    "Fisica/Termodinamica/Teoria cinetica dei gas.md",
+    "Fisica/Meccanica/Leggi della dinamica.md",
+    "LFC/pdf/Properties of context free languages.pdf",
+    "Computational logic",
+    "LFC/pdf/Almost the right book.pdf",
+    "LFC/img/consegna-pt2.png",
+    "LFC/img/consegna-pt1.png",
+    "LFC/img",
+    "LFC/Nuova cartella",
+    "LFC/consegna-pt1.png",
+    "Fisica/Meccanica/Attrito radente.md",
+    "Untitled.canvas",
     "Fisica/Termodinamica/img/espansione-libera.jpeg",
     "Fisica/Termodinamica/img/Screenshot (269)-1.png",
     "Fisica/Termodinamica/img/Screenshot (269).png",
     "Fisica/Termodinamica/q&a",
-    "Untitled",
     "Tirocinio",
-    "LFC/pdf/Properties of context free languages.pdf",
     "LFC/pdf",
-    "LFC/pdf/Almost the right book.pdf",
     "Machine learning",
     "LFC",
-    "Magistrale/Places I have a chance to get in/Trento",
-    "Magistrale/Places I have a chance to get in",
     "Untitled 1.canvas",
     "Fisica/Termodinamica/img/Carnot-engine.jpg",
     "Fisica/Termodinamica/img/macchina-impossibile.png",
-    "Screenshot (257).png",
-    "Fisica/Meccanica/img/pendolo.png",
-    "Fisica/Termodinamica/img/Carnot-engine.png",
-    "Fisica/Termodinamica/img/joule-s-experiment.jpg",
     "Fisica/Formulario.canvas"
   ]
 }

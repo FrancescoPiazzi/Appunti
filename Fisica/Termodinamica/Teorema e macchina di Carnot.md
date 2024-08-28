@@ -45,7 +45,7 @@ si hanno quindi
 $$\begin{gather*}
 (\frac{V_C}{​V_B}​​)^{\gamma-1}=\frac{Tc}{​Th} \\[6pt]
 (\frac{V_A}{​V_D}​​)^{\gamma-1}=\frac{Tc}{​Th} \\
-\end{gather*}$$​​(nota: non è  un passaggio algebrico, la prima riga è derivata dalla prima adiabatica, la seconda riga dalla seconda)
+\end{gather*}$$​​*(nota: non è  un passaggio algebrico, la prima riga è derivata dalla prima adiabatica, la seconda riga dalla seconda)*
 
 
 
@@ -57,7 +57,19 @@ $$\begin{gather*}
 \eta = 1 - \frac{T_c}{T_h}
 \end{gather*}$$
 # Teorema di Carnot
+Consideriamo due macchine termiche, X ed R; che lavorano tra due sorgenti di calore alle temperature $T_1$ e $T_2$, con $T_1<T_2$, dimensionate in modo da assorbire lo stesso calore $Q_2$, la prima potrebbe essere reversibile oppure no, mentre la seconda è sicuramente reversibile $R$
+I rendimenti delle due macchine saranno $\eta_X = W_X/Q_2$ e $\eta_R = W_R/Q_2$, essendo $R$ reversibile, possiamo farla funzionare al contrario come macchina frigorifera, scambiando di segno calore e lavoro scambiati da essa.
+Dato che $R$ è reversibile, ha rendimento 1, quindi tutto il calore ($=Q_2$) assorbito da $T_1$ verrà trasferito a $T_2$, questo significa che $T_2$ non scambia complessivamente calore.
+Per l'[[Principi della termodinamica#Secondo principio#Chiacchere|enunciato di Kelvin plank]], questa macchina non può produrre lavoro (se lo facesse staremmo prendendo calore da $T_1$ e convertendolo tutto in lavoro senza risultati esterni), questo significa che il lavoro prodotto dalla macchina $X$ deve essere minore o uguale di quello prodotto dalla macchina $R$
+$$\begin{gather*}
+W_X \le W_R \\
+\frac{W_X}{Q_2} \le \frac{W_R}{Q_2} \\
+\eta_X \le \eta_R
+\end{gather*}$$
+In particolare, se $X$ è reversibile possiamo rifare tutto il ragionamento dove però facciamo diventare $X$ un frigorifero, ottenendo $\eta_X \ge \eta_R$, e quindi $\eta_X = \eta_R$, mentre se $X$ è irreversibile si ha che $\eta_X \lt \eta_R$
 
+-------------
+(old stuff)
 Il teorema di Carnot afferma che non può esistere una macchina termica che opera tra due sorgenti di calore che abbia un efficienza maggiore di una macchina di Carnot operante tra le due stesse sorgenti.
 Durante la trasformazione da energia termica ad energia meccanica, il rendimento del motore è la percentuale di energia che viene trasformata in lavoro termodinamico, il teorema di Carnot afferma inoltre che il motore non può trasformare tutto il calore della sorgente in energia meccanica, di nuovo, la massima quantità di calore estraibile si estrae con la macchina di Carnot.
 

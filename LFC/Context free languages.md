@@ -63,13 +63,21 @@ Proof: TODO, it has to do with renaming the initial states of the two to $S_1$ a
 Lemma: the class of free languages is closed w.r.t. language concatenation
 Proof: TODO, it has to do with renaming the initial states of the two to $S_1$ and $S_2$, then adding a new staring state and the production $S \rightarrow S_1S_2$ 
 
+# Closure with reference to intersection
+Free languages are **not** closed w.r.t. intersection
+
 # Pumping lemma for free languages
 Let $L$ be a free language, then
-$$\exists  p \in \mathbb{N}^+\ :\ \forall z \in L\ :\ |z|> p \ \exists \ u,v,w, x, y \ :\ z=uvwxy,\ |vwx|\le p,\ |vx| \gt 0,\ \forall i \in \mathbb{N}\ uv^iwx^i \in L$$
-This is a mess, but it's saying this: there exists a certain threshold p such that all strings z longer than p produced by the grammar L can be split into 5 parts $uvwxy$, and these 5 parts have the following properties:
-+ the length of $vwx \le p$
+$$\begin{gather*}
+\exists  p \in \mathbb{N}^+\\
+\forall z \in L : |z|> p \\ 
+\exists \ u,v,w, x, y \ :\ z=uvwxy,\ |vwx|\le p,\ |vx| \gt 0, \\
+\forall i \in \mathbb{N}\ uv^iwx^iy \in L
+\end{gather*}$$
+This is a mess, but it's saying this: there exists a certain threshold p such that all strings z longer than p produced by the grammar L can be split into 5 parts ($uvwxy$), these 5 parts have the following properties:
++ the length of $vwx \le p$ (the middle part has an upper limit to its size)
 + the length of $vx \gt 0$ (at least one of them is not an empty string)
-+ $uw$ is in the language, so is $uvwx$, and $uvvvvwxxxx$ 
++ $uvwxy$ is in the language, so is $uvvwxxy$, and $uvvvvwxxxxy$ 
 ## Proof and explanation of where the fuck that garbage came from
 
 Let $L$ be a free language, the lemma is about words longer than a certain p we get to choose, so we can always choose $P\gt 0$ and exclude the language that produces $\varepsilon$.
@@ -86,11 +94,14 @@ We also consider a cleaned up free grammar $G$ such that $L(G) = L \setminus \{\
 4) Consider $p=2^{k+1}$ 
 5) Consider $z \in L : |z|\gt p$
 6) Then the derivation tree for $z$ must have at least $k+2$ levels, this means that the longest path of the derivation tree for z has at least $k+1$ non terminals, since $k$ was chosen to be the same as the number of non terminals, then there is at least one non terminal that is repeated at least twice in the derivation path
-7) Consider the longest path in the tree, and the deepest pair of occurrences of the same non terminal: the non terminal whose second occurrence is found first while searching the tree from the bottom to the top, let that non terminal be $A$, and call its two occurrences $A_1$ and $A_2$ , with $A_1$ being the lowest
+7) Consider the longest path in the tree, and the deepest pair of occurrences of the same non terminal: the non terminal whose second occurrence is found first while searching the tree from the bottom to the top, let that non terminal be $A$, and call its two occurrences $A_1$ and $A_2$ , with $A_2$ being the lowest
 8) Then $z=uvwxy$, where 
 	+ $u$ and $y$ are the beginning and end of $z$ (as in the beginning of $u$ is the beginning of $z$, and the end of $u$ is the end of $y$)
-	+ $v$ and $x$ are the beginning and end of the string derived from $A_2$
-	+ $w$ is the string derived from $A_1$
+	+ $v$ and $x$ are the beginning and end of the string derived from $A_1$
+	+ $w$ is the string derived from $A_2$
+
+![Engelbart|400](img/PumpingLemma-1.png)
+(small mistake in image: x''x' = x, (the x' and x'' are swapped), not gonna bother fixing it)
 9) From this we can tell that:
 	+ $\forall i \in \mathbb{N}\ uv^iwx^i \in L$ because:
 		+ $uv^0wx^0y = uwy \in L$: since $A_2$ can produce a string $w$, then so can $A_1$, as they are the same non terminal
@@ -100,4 +111,7 @@ We also consider a cleaned up free grammar $G$ such that $L(G) = L \setminus \{\
 	+ $|vwx| \lt p$ because we have chosen the deepest pair of repeated non terminals $A_1$ and $A_2$ along the longest path from $S$, this means that along the longest path starting from $A_2$, no non terminal can occur more than once, meaning that the subtree rooted in $A_2$ has at most k+1 levels, meaning that the length of the strings produced by the subtree is limited by $2^k+1$, this point is valid as we had chosen $p=2^{k+1}$ at step 4
 	+ $|vx| > 0$ as $G'$ is cleaned up, then there cannot be any unit production such as $A\Rightarrow ^+ A$, there has to be at least one terminal either before or after $A$
 ## Why do we need this garbage
-It can be used to show that a language is not free, the idea is to assume that it is, show that the thesis of the lemma is false, and then prove the opposite, this concludes that a language is not free by contradiction. It cannot be used to show that a language is free, as it doesn't tell us anything about properties of non free language, so a language might not be free but still match all the thesis of the pumping lemma (TODO what is a free language anyway?)
+It can be used to show that a language is not free, the idea is to assume that it is, show that the thesis of the lemma is false, and then prove the opposite, this concludes that a language is not free by contradiction. It cannot be used to show that a language is free, as it doesn't tell us anything about properties of non free language, so a language might not be free but still match all the thesis of the pumping lemma
+
+## Additional notes
+Any finite language is regular, as we can build a finite automaton to recognize them. The pumping lemma is vacuously true for any finite language, since it talks about all strings longer than a certain p, we can choose p as "length of the longest word"+1, and there are no strings to be pumped

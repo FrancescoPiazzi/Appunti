@@ -51,7 +51,6 @@ Questo non vale in presenza di trasformazioni irreversibili, come tutte le trasf
 + Espansioni libere di gas
 + Passaggi di calore tra due corpi a contatto termico 
 *(quindi qualunque trasformazione vera)*
-
 ![[Teorema e macchina di Carnot#Teorema di Carnot]]
 
 ----------

@@ -36,7 +36,7 @@ $$
 $$
 ^DisuguaglianzaClausius
 
-Da questa disuguaglianza possiamo derivare che la variazione di entropia di una trasformazione reversibile è maggiore di quella di una irreversibile
+Da questa disuguaglianza possiamo derivare che la variazione di entropia di una trasformazione reversibile è minore di quella di una irreversibile
 $$\begin{gather*}
 \oint{\frac{\delta Q}{T}} \le 0 \\
 \int_A^B{\frac{\delta Q_{rev}}{T}} + \int_B^A{\frac{\delta Q_{irr}}{T}} \le 0\\

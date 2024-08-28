@@ -12,8 +12,11 @@ $$
 + $p$ momentum
 + $c$ speed of light
 ^EinsteinFormula
-$$
-\begin{aligned}
+
+$2a \stackrel{\text{def}}{=} a+a$
+
+
+$$\begin{aligned}
 y=ax^2 \\
 x^2=\frac{y}{a} \\
 x=\sqrt{\frac{y}{a}}
@@ -34,4 +37,10 @@ A =
         d
     \end{array} 
 \right.
+$$
+
+$$
+\begin{align*}
+y = \left( \frac{1}{x} + \frac{1}{x^2} + \frac{1}{x^3} \right)
+\end{align*}
 $$

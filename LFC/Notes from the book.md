@@ -23,23 +23,22 @@ Each phase, through checking and transformation, establishes stronger invariants
 ## Interpreters
 Another way of implementing programming languages are interpreters, interpreters are similar to compilers, but instead of generating code from the syntax tree, the tree is processed directly to evaluate expressions and execute statements, this means that an interpreter may need to process the same statement several times (i.e. code in a loop), making interpreted programs slower than compiled ones, however interpreters are simpler, easier to move to other architectures.
 In addition, plain code tends to be smaller than intermediate code, which tends to be smaller than compiled code, programming languages may be implemented as combinations of these i.e. compiling only parts where efficiency is crucial, while leaving the bigger part of the program in plain (i.e. using tensorflow with python) or in intermediate language (i.e. java)
-
 # Lexical analysis
 The lexical analyzer, or lexer, will take as input as string and divide it into tokens, filtering out all the garbage useful only to stupid humans like comments, spaces, macros etc.
-It is reasonable to write a lexer by hand: the idea is to skip all white spaces, comments, etc. and every time we encounter a token, determine whether it is a variable, a number, or a keyword, however these can be hard to maintain and sometimes it may not be obvious when a token ends (i.e. x=3/2/\*this comment is annoying, as the beginning looks like another divisor\*/;)
+It is reasonable to write a lexer by hand: the idea is to skip all white spaces, comments, etc. and every time we encounter a token, determine whether it is a variable, a number, or a keyword, however these can be hard to maintain and sometimes it may not be obvious when a token ends (i.e. x=3/2/* this comment is annoying, as the beginning looks like another divisor* /;)
 This calls for the use of something to translate human-readable specifications into lexers, for lexers these specifications are often written using *regular expressions*, the generated lexers are in a class of algorithms called *finite automata*
 # Regular expressions
 An **alphabet** is a set of characters, given an alphabet, a **regular expression** is an algebraic notation that describes a set of strings that can be composed by the alphabet.
 Each regular expression has an associated set of strings it can produce, this set is called language of s and denoted as $L(s)$. Notation for regular expressions or regex is as follows:
 
-| Regex         | Language                                            | Description                                                                                            |
-| ------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| a             | {"a"}                                               | Set containing only the letter "a"                                                                     |
-| $\varepsilon$ | {""}                                                | Set containing the empty string                                                                        |
-| s\|t          | $L(s) \cup L(t)$                                    | Strings from languages s and t                                                                         |
-| st            | ${vw \mid v \in L(s), w \in L(t)}$                  | Strings constructed by concatenating a string from the language s to a string from the language t^[^1] |
-| s*            | $\{````\} \cup \{vw \mid v \in L(s), w \in L(s*)\}$ | Any number of strings of the language s                                                                |
-[^1]: The $\mid$ symbol in the definition is the mathematical "such that", not the union operator for languages defined in the row above
+| Regex         | Language                                            | Description                                                                                       |
+| ------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| a             | {"a"}                                               | Set containing only the letter "a"                                                                |
+| $\varepsilon$ | {""}                                                | Set containing the empty string                                                                   |
+| s\|t          | $L(s) \cup L(t)$                                    | Strings from languages s and t                                                                    |
+| st            | ${vw \mid v \in L(s), w \in L(t)}$^[^1]             | Strings constructed by concatenating a string from the language s to a string from the language t |
+| s*            | $\{````\} \cup \{vw \mid v \in L(s), w \in L(s*)\}$ | Any number of strings of the language s                                                           |
+[^1]: The "|" symbol in the definition is the mathematical "such that", not the union operator for languages defined in the row above
 
 The precedence for applying rules is in reverse order compared to the rows of the table (star is tighter than concatenation which is tighter than union)
 We will be using a few shorthands for convenience:

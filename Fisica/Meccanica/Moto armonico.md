@@ -3,13 +3,6 @@ $$ \ddot x +\alpha x = 0 $$
 + $\ddot x =\frac{d^2x}{dt^2}$
 + $\alpha$ numero reale
 
-Nel caso in cui il moto descriva il movimento di una [[Molle|molla]] o di un [[Pendolo|pendolo]], si ha che:
-$$\frac{d^2x}{dt^2} = -\frac{kx}{m} $$
-
-+ $m$ massa inerziale
-+ $x$ spostamento rispetto alla situazione di equilibrio
-+ $k$ costante
-
 Risolvere questa equazione produce
 $$ x(t) = c_1\ cos(\omega t)\ + \ c_2\ sin(\omega t)$$
 + $\omega = \sqrt{k/m}$ 

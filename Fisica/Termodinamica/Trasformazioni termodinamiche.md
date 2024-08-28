@@ -2,7 +2,7 @@
 Ricordando che il lavoro di un corpo che si muove lungo una traiettoria $\gamma$ vale ![[Lavoro#^Lavoro]]
 E ricordando che una pressione è una forza su una superficie, se la superficie è costante pressione e forza sono proporzionali. Se mettiamo il gas in un cilindro, anche spostamento e volume sono proporzionali.
 Quindi possiamo veder il lavoro di una trasformazione termodinamica in modo simile a come vediamo il lavoro meccanico
-$$ W =\int_{V_A}^{V_B} P \ dv = nc_V(T_B-T_a)$$ ^LavoroTrasformazioniTermodinamiche
+$$ W =\int_{V_A}^{V_B} P \ dv$$ ^LavoroTrasformazioniTermodinamiche
 # Entropia delle trasformazioni termodinamiche
 $$\Delta S= \int_A^B \frac{\delta Q}{T} = \int_A^B \frac{1}{T} \ \delta Q$$
 # Trasformazioni isobare
@@ -14,7 +14,12 @@ Q = nc_p(T_B-T_A)
 $$
 
 In un'isobara la pressione è costante, quindi abbiamo che il lavoro vale
-$$ W =\int_{V_A}^{V_B} p\ dv = pV \bigg\rvert_{V_A}^{V_B} = p(V_B - V_A) = p(\frac{nRT_B}{p} - \frac{nRT_A}{p}) = nR(T_B-T_A)
+$$ 
+W =\int_{V_A}^{V_B} p\ dv = 
+pV \bigg\rvert_{V_A}^{V_B} = 
+p(V_B - V_A) = 
+p(\frac{nRT_B}{p} - \frac{nRT_A}{p}) = 
+nR(T_B-T_A)
 $$
 Il calore assorbito per passare da uno stato A ad uno stato B
 $$ Q_{A\rightarrow B} = n \ c_p \ \Delta T$$
@@ -41,7 +46,7 @@ Essendo la temperatura costante, $1/T$ è costante, quindi la variazione di entr
 $$ \Delta S = \int_A^B \frac{1}{T} \ \delta Q = \frac{Q}{T} $$
 # Trasformazioni adiabatiche
 Nelle trasformazioni adiabatiche possiamo sfruttare il fatto che, essendo il calore zero, si ha che $\Delta U = -W$
-ricordando [[Trasformazioni termodinamiche di gas#^LavoroTrasformazioniTermodinamiche|il lavoro di una trasformazione termodinamica generica]] possiamo scrivere
+ricordando [[Trasformazioni termodinamiche#^LavoroTrasformazioniTermodinamiche|il lavoro di una trasformazione termodinamica generica]] possiamo scrivere
 $$\begin{gather*}
 -W = nc_V(T_B-T_A) \\
 W = nc_V(T_A-T_B)
@@ -52,7 +57,7 @@ Questo significa che quando il gas esegue un'espansione adiabatica e quindi fa l
 
 L'espressione infinitesima del primo [[Principi della termodinamica#Primo principio|primo principio della termodinamica]] è:
 $$dQ = dU + dW = nc_VdT+pdV=0$$
-Essendo la trasformazione reversibile, possiamo esprimere il lavoro in funzione delle coordinate termodinamiche e usare la [[Energia interna di un gas#^RelazioneDiMayer|relazione di Mayer]]
+Essendo la trasformazione reversibile, possiamo esprimere il lavoro in funzione delle coordinate termodinamiche, e poi usare la [[Energia interna di un gas#^RelazioneDiMayer|relazione di Mayer]]
 $$\begin{gather*}
 n\ c_V\ dT + \frac{nRT}{V} dV = 0 \\
 \frac{nRT}{V} dV = - n\ c_V\ dT \\
@@ -69,12 +74,12 @@ $$\begin{gather*}
 (\gamma-1)\ ln(V)\bigg\rvert_{A}^{B} = -ln(T)\bigg\rvert_{A}^{B} \\[6pt]
 (\gamma-1)\ (lnV_B-lnV_A) = -(lnT_B-lnT_A) \\[6pt]
 (\gamma-1)\ ln\frac{V_B}{V_A} = ln\frac{T_A}{T_B} \\[6pt]
-ln((\frac{V_B}{V_A})^{\gamma-1}) = ln\frac{T_A}{T_B} \\
+ln\left(\left(\frac{V_B}{V_A}\right)^{\gamma-1}\right) = ln\frac{T_A}{T_B} \\
 \end{gather*}$$
 L'uguaglianza tra logaritmi implica l'uguaglianza tra argomenti, quindi
 $$\begin{gather*}
-ln((\frac{V_B}{V_A})^{\gamma-1}) = ln\frac{T_A}{T_B} \\[6pt]
-(\frac{V_B}{V_A})^{\gamma-1} = \frac{T_A}{T_B} \\[6pt]
+ln\left(\left(\frac{V_B}{V_A}\right)^{\gamma-1}\right) = ln\frac{T_A}{T_B} \\[6pt]
+\left(\frac{V_B}{V_A}\right)^{\gamma-1} = \frac{T_A}{T_B} \\[6pt]
 \frac{V_B^{\gamma-1}}{V_A^{\gamma-1}} = \frac{T_A}{T_B} \\[6pt]
 T_A\ V_A^{\gamma-1} = T_B\ V_B^{\gamma-1}
 \end{gather*}$$
@@ -87,8 +92,8 @@ Un'esempio di trasformazione adiabatica irreversibile è quella dell'[[Energia i
 
 # Riassunto
 
-|            | Isocore        | Isobare        | Isoterme        | Adiabatiche    |
-| ---------- | -------------- | -------------- | --------------- | -------------- |
-| $\Delta U$ | $nc_V\Delta T$ | $nc_V\Delta T$ | $nc_V\Delta T$  | $nc_V\Delta T$ |
-| $Q$        | $nc_V\Delta T$ | $nc_p\Delta T$ | $nRln(V_B/V_A)$ | $0$            |
-| $W$        | $0$            | $nR\Delta T$   | $nRln(V_B/V_A)$ | $nc_V\Delta T$ |
+|            | Isocore        | Isobare        | Isoterme        | Adiabatiche     |
+| ---------- | -------------- | -------------- | --------------- | --------------- |
+| $\Delta U$ | $nc_V\Delta T$ | $nc_V\Delta T$ | $0$             | $nc_V\Delta T$  |
+| $Q$        | $nc_V\Delta T$ | $nc_p\Delta T$ | $nRln(V_B/V_A)$ | $0$             |
+| $W$        | $0$            | $nR\Delta T$   | $nRln(V_B/V_A)$ | $-nc_V\Delta T$ |

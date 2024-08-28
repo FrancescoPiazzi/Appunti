@@ -9,7 +9,7 @@ $$p_1 V_1 = p_2 V_2$$
 Riassumendo, possiamo dire che
 ***In una trasformazione isoterma, pressione e volume sono inversamente proporzionali***
 ## Leggi di Volta-Gay Lussac
-Se invece il gas non cambia di pressione durante una trasformazione, si ha che il volume varia linearmente con la temperatura
+Se invece il gas non cambia di pressione durante una trasformazione (i.e. lo mettiamo in un cilindro), si ha che il volume varia linearmente con la temperatura
 $$ V = V_0(1+\alpha t)$$
 + $V$ volume
 + $V_0$ volume occupato dal gas quando t=0 °C
@@ -19,15 +19,15 @@ $$ V = V_0(1+\alpha t)$$
 Se si mantiene il volume costante, si ha un risultato simile
 $$ p = p_0(1+\beta t)$$
 + $p$ pressione
-+ $p_0$ pressione occupata dal gas quando t=0 C°
++ $p_0$ pressione occupata dal gas quando t=0 °C
 + $\beta$ costante che varia (poco) al variare del gas
 + $t$ (°C) temperatura
 
 Da questi ultimi due esperimenti si nota che, quando il gas si avvicina alla condizioni di un gas ideale (bassa pressione e alta temperatura), si osserva che $\alpha$ e $\beta$ assumono lo stesso valore per tutti i gas
 $$\alpha = \beta = \frac{1}{273.15}°C^{-1}$$
 Le formule precedenti possono essere quindi riscritte come:
-$$ V = V_0(1+\alpha t) = V_0\ \alpha\ (\alpha+\frac{1}{t}) = p_0 \ \alpha \ T$$
-$$ p = p_0(1+\alpha t) = p_0\ \alpha\ (\alpha+\frac{1}{t}) = p_0 \ \alpha \ T$$
+$$ V = V_0(1+\alpha t) = V_0\ \alpha\ (\frac{1}{\alpha}+t) = V_0 \ \alpha \ T$$
+$$ p = p_0(1+\alpha t) = p_0\ \alpha\ (\frac{1}{\alpha}+t) = p_0 \ \alpha \ T$$
 + $T = \frac{1}{\alpha} + t = 273.15 + t$, ovvero la temperatura convertita da Celsius in Kelvin
 
 Da questa formulazione notiamo che alla temperatura di 0 Kelvin si hanno $p=0$ e $V=0$, questo rappresenta uno stato limite, e, oltre ad essere di per sé irragginugibile, temperature inferiori a 0 Kelvin non hanno senso
@@ -46,7 +46,7 @@ $$
 pV = nRT
 $$
 ^GasPerfetti1
-+ $P$ pressione ($pascal$)
++ $p$ pressione ($pascal$)
 + $V$ volume ($m^3$)
 + $n$ numero molecole
 + $R$ costante gas ($\frac{J}{mol*K}$)
@@ -72,7 +72,7 @@ $$ p = n_m\ R\ T $$
 + $n_m$ densità molare ($\frac{mol}{m^{3}}$)
 Ora introduciamo $n = n_m N_a$ dove $n$ è il numero di molecole per metro cubo e osserviamo che compare la costante di Boltzmann
 $$ \begin{gather*}
-p = n\ \frac{R}{N_a}\ T \\
-p = n\ k_b\ T
+p = n_m\ \frac{R}{N_a}\ T \\
+p = n_m\ k_b\ T
 \end{gather*} $$
 ^GasPerfetti2

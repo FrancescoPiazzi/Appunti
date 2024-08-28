@@ -9,7 +9,7 @@ Per determinare il valore di $U(T)$ consideriamo due generici stati di equilibri
 $$\Delta U = U(B) - U(A) = U(B) -U(C) +U(C) -U(A) = U(C)-U(A)$$
 Questo vale perché essendo $CB$ isoterma, $U(B)-U(C)=0$ perché $U$ è funzione solamente della temperatura, che non è cambiata
 Ricordando la variazione di energia di una trasformazione isocora:
-![[Trasformazioni termodinamiche di gas#^caloreIsocore]]
+![[Trasformazioni termodinamiche#^caloreIsocore]]
 Essendo una trasformazione isocora il gas non compie [[Lavoro|lavoro]], quindi per il [[Principi della termodinamica#Primo principio|primo principio della termodinamica]] abbiamo che $\Delta U = Q_V$, quindi
 
 $$
@@ -25,12 +25,14 @@ Questo ci fa anche capire che il calore specifico rappresenta la quantità di Jo
 
 Essendo l'energia interna una funzione di stato, **queste formule sono indipendenti dalle trasformazioni eseguite per ricavarle**, quindi valgono qualunque sia la trasformazione
 
+-----------
+
 Nel caso di una trasformazione isobara invece, abbiamo del lavoro $W=p\Delta V$, positivo perché il gas si espande e quindi compie lavoro positivo con l'aumento della temperatura $$ Q_p = n\ c_p\ \Delta T $$ di nuovo ricordando il primo principio $\Delta U = Q_{in} - W_{out}$
 
-$$ \Delta U = n\ c_p\ d T - p\ dV$$
+$$ \Delta U = n\ c_p\ \Delta T - p\ \Delta dV$$
 ^DeltaEnergiaInternaGasIsobara
 
-Dato che l'energia interna è funzione solo della temperatura, e la variazione di temperatura è la stessa, $c_p$ deve essere maggiore di $c_V$ per "bilanciare" il $-p\Delta V$, questo significa che **il calore che bisogna cedere a una certa quantità di gas per farlo aumentare di una certa temperatura è maggiore se manteniamo la pressione costante**. L'idea è che se manteniamo la pressione costante parte del calore trasferito finisce in lavoro per far espandere il gas, cosa che ovviamente non succede se il volume rimane costante.
+Dato che l'energia interna è funzione solo della temperatura, e la variazione di temperatura è la stessa, $c_p$ deve essere maggiore di $c_V$ per "bilanciare" il $-p\Delta V$, questo significa che **il calore che bisogna cedere a una certa quantità di gas per farlo aumentare di una certa temperatura è maggiore se manteniamo la pressione costante**. L'idea è che se manteniamo la pressione costante parte del calore trasferito finisce in lavoro per far espandere il gas, cosa che non succede se il volume rimane costante.
 Se non consideriamo il calore specifico costante, ma funzione della temperatura:
 $$\Delta U = Q = n\int_{T_A}^{T_B}{c_V\ dT}$$
 # Relazione di Mayer
@@ -59,6 +61,7 @@ $$R =c_p-c_V$$
 Essendo $c_V$ in funzione della temperatura, questo significa che anche $c_p$ lo è, inoltre per salti di temperatura relativamente piccoli o temperature non basse possiamo approssimarlo a costante
 
 ## Metodo semplice
+Ricordando le variazioni di energia interna di trasformazioni isocore e isobare:
 ![[Energia interna di un gas#^DeltaEnergiaInternaGas]]
 ![[Energia interna di un gas#^DeltaEnergiaInternaGasIsobara]]
 $$\begin{gather*}
@@ -75,5 +78,4 @@ Il rapporto tra $c_p$ e $c_V$ può anch'esso essere approssimato a costante, e i
 | ------------------------ | -------------- | -------------- |
 | $c_V$                    | $\frac{3}{2}R$ | $\frac{5}{2}R$ |
 | $c_p$                    | $\frac{5}{2}R$ | $\frac{7}{2}R$ |
-| $\gamma=\frac{c_p}{c_V}$ | $\frac{5}{3}R$ | $\frac{7}{5}R$ |
-
+| $\gamma=\frac{c_p}{c_V}$ | $\frac{5}{3}$  | $\frac{7}{5}$  |
