@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "519ff6d470da0d62",
+        "id": "910cdd9e0287015e",
         "type": "tabs",
         "children": [
           {
-            "id": "b6cbaad203e3fb37",
+            "id": "aa38861c6f29252b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LFC/Context free languages.md",
+                "file": "Fisica/Termodinamica/2.15 Entropia.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2.15 Entropia"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -49,12 +53,14 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
-                "explainSearch": false,
+                "matchingCase": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 311.5080032348633
+    "width": 367.5080032348633
   },
   "right": {
     "id": "751c9eac21624fd1",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LFC/Context free languages.md",
+                "file": "Fisica/Termodinamica/Legge dei gas perfetti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Legge dei gas perfetti"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LFC/Context free languages.md",
+                "file": "Fisica/Termodinamica/Legge dei gas perfetti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Legge dei gas perfetti"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,15 +139,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LFC/Context free languages.md"
-              }
+                "file": "Fisica/Termodinamica/Legge dei gas perfetti.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Legge dei gas perfetti"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
+    "width": 325.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -146,56 +163,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6cbaad203e3fb37",
+  "active": "aa38861c6f29252b",
   "lastOpenFiles": [
-    "LFC/Notes from the book.md",
-    "Fisica/Termodinamica/q&a/Sezione 11.md",
-    "LFC/feb-2024.md",
-    "x.md",
-    "LFC/Context free languages.md",
-    "LFC/Chomsky's normal form.md",
-    "Tirocinio/2024-07-19.md",
-    "Tirocinio/Ore.md",
-    "Computational logic/Homework 3.md",
-    "Tirocinio/Note primo incontro.md",
-    "Robotics/Report.md",
-    "Ctrl+C Ctrl+V.md",
-    "Fisica/Termodinamica/Seconda legge della termodinamica (lezione).md",
-    "Fisica/Termodinamica/Teorema e macchina di Carnot.md",
+    "Fisica/Termodinamica/2.14 Clausius.md",
+    "Fisica/Meccanica/1.7 Energia.md",
+    "Fisica/Meccanica/1.12 Sistemi non inerziali.md",
+    "Fisica/Meccanica/1.6 Lavoro.md",
+    "Fisica/Meccanica/1.2 Attrito radente.md",
+    "Fisica/Termodinamica/Q&A.md",
+    "Fisica/Cuoricini.md",
+    "Fisica/Termodinamica/2.2 Lavoro e calore.md",
+    "Fisica/Termodinamica/2.3 Energia interna di un gas.md",
+    "Fisica/Termodinamica/2.16 Entropia di trasformazioni notevoli.md",
+    "Fisica/Meccanica/1.9 Moto parabolico.md",
+    "Fisica/Termodinamica/2.15 Entropia.md",
+    "Fisica/Termodinamica/2.13 Teorema di Carnot.md",
+    "Fisica/Termodinamica/2.12 Secondo principio della termodinamica.md",
+    "Fisica/Termodinamica/2.11 Ciclo di Carnot.md",
+    "Fisica/Termodinamica/2.10 Trasformazioni cicliche.md",
+    "Fisica/Termodinamica/2.4 Calori specifici e relazione di Mayer.md",
+    "Fisica/Termodinamica/2.1 Calore.md",
+    "Fisica/Termodinamica/2.0 Introduzione.md",
+    "Fisica/Termodinamica/2.8 Teoria cinetica dei gas.md",
+    "Fisica/Termodinamica/2.9 Trasformazioni notevoli.md",
+    "Fisica/Termodinamica/2.17 Terzo principio della termodinamica.md",
+    "Fisica/Termodinamica/2.7 Legge dei gas perfetti.md",
+    "Fisica/Termodinamica/2.6 Trasmissione del calore.md",
+    "Fisica/Termodinamica/2.5 Primo principio della termodinamica.md",
+    "Fisica/Meccanica/1.8 Teorema delle forze vive.md",
+    "Fisica/Termodinamica/img/macchina-teorema-carnot.png",
+    "Fisica/Termodinamica/img/MacchinaTeoremaCarnot.png",
+    "Fisica/Termodinamica/img/approximating-thermo-cycle.jpg",
+    "Fisica/Termodinamica/img/trasformazione-ciclica.png",
+    "Fisica/Termodinamica/img/macchina-impossibile.png",
+    "Fisica/Termodinamica/img/joule-s-experiment.jpg",
+    "Fisica/Termodinamica/img/espansione-libera.jpeg",
+    "Fisica/Termodinamica/img/Carnot-engine.jpg",
+    "Fisica/Termodinamica/q&a",
+    "Fisica/Termodinamica/img",
+    "Fisica/Termodinamica",
+    "Random ideas",
     "LFC/img/PumpingLemma-1.png",
     "LFC/img/Blank diagram.png",
-    "Fisica/Meccanica/Forze conservative e non.md",
-    "Fisica/Meccanica/Lavoro.md",
-    "Fisica/Meccanica/Molle.md",
-    "Fisica/Termodinamica/Equilibrio termodinamico.md",
-    "Fisica/Termodinamica/Trasmissione del calore.md",
-    "Fisica/Termodinamica/Lavoro e calore.md",
-    "Fisica/Termodinamica/Principi della termodinamica.md",
-    "Fisica/Termodinamica/Energia interna di un gas.md",
-    "Fisica/Termodinamica/Trasformazioni termodinamiche.md",
-    "Fisica/Termodinamica/Teoria cinetica dei gas.md",
-    "Fisica/Meccanica/Leggi della dinamica.md",
     "LFC/pdf/Properties of context free languages.pdf",
     "Computational logic",
     "LFC/pdf/Almost the right book.pdf",
-    "LFC/img/consegna-pt2.png",
-    "LFC/img/consegna-pt1.png",
     "LFC/img",
     "LFC/Nuova cartella",
-    "LFC/consegna-pt1.png",
-    "Fisica/Meccanica/Attrito radente.md",
     "Untitled.canvas",
-    "Fisica/Termodinamica/img/espansione-libera.jpeg",
-    "Fisica/Termodinamica/img/Screenshot (269)-1.png",
-    "Fisica/Termodinamica/img/Screenshot (269).png",
-    "Fisica/Termodinamica/q&a",
     "Tirocinio",
-    "LFC/pdf",
-    "Machine learning",
-    "LFC",
     "Untitled 1.canvas",
-    "Fisica/Termodinamica/img/Carnot-engine.jpg",
-    "Fisica/Termodinamica/img/macchina-impossibile.png",
     "Fisica/Formulario.canvas"
   ]
 }

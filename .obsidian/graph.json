@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:Fisica  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -44,15 +44,15 @@
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.0030174563591,
-  "lineSizeMultiplier": 1.12032418952618,
+  "nodeSizeMultiplier": 1.04211970074813,
+  "lineSizeMultiplier": 2.29339152119701,
   "collapse-forces": false,
-  "centerStrength": 0.499501246882793,
-  "repelStrength": 9.50997506234414,
-  "linkStrength": 1,
-  "linkDistance": 81,
-  "scale": 0.6360666508255791,
-  "close": true
+  "centerStrength": 0.459538653366584,
+  "repelStrength": 8.7930174563591,
+  "linkStrength": 0.307980049875312,
+  "linkDistance": 186,
+  "scale": 0.9703558329849131,
+  "close": false
 }

@@ -38,7 +38,7 @@ A =
     \end{array} 
 \right.
 $$
-
+$$\vec{F} = -G\frac{m_1 \cdot m_2}{\hat{d}^2}\hat{r}_{12}$$
 $$
 \begin{align*}
 y = \left( \frac{1}{x} + \frac{1}{x^2} + \frac{1}{x^3} \right)

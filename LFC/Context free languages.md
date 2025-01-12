@@ -96,7 +96,7 @@ We also consider a cleaned up free grammar $G$ such that $L(G) = L \setminus \{\
 6) Then the derivation tree for $z$ must have at least $k+2$ levels, this means that the longest path of the derivation tree for z has at least $k+1$ non terminals, since $k$ was chosen to be the same as the number of non terminals, then there is at least one non terminal that is repeated at least twice in the derivation path
 7) Consider the longest path in the tree, and the deepest pair of occurrences of the same non terminal: the non terminal whose second occurrence is found first while searching the tree from the bottom to the top, let that non terminal be $A$, and call its two occurrences $A_1$ and $A_2$ , with $A_2$ being the lowest
 8) Then $z=uvwxy$, where 
-	+ $u$ and $y$ are the beginning and end of $z$ (as in the beginning of $u$ is the beginning of $z$, and the end of $u$ is the end of $y$)
+	+ $u$ and $y$ are the beginning and end of $z$ (as in the beginning of $u$ is the beginning of $z$, and the end of $y$ is the end of $z$)
 	+ $v$ and $x$ are the beginning and end of the string derived from $A_1$
 	+ $w$ is the string derived from $A_2$
 

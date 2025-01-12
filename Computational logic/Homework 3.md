@@ -11,9 +11,9 @@ Thanks to the labelling function, we can describe rules for different states of 
 This application illustrates modal logic's power in specifying and verifying properties of concurrent systems, ensuring correctness and preventing undesirable states.
 
 
-\Problem{2}
+# Problem 2
 Let $F = (W, R)$ be a modal frame. Prove that $R$ is symmetric if and only if $\varphi\implies\Box\diamond\varphi$ \\ \\
-The proof is divided into two parts: $R$ is symmetric $\xrightarrow{} (\varphi\implies\Box\diamond\varphi)$, and $(\varphi\implies\Box\diamond\varphi)$. $\xrightarrow{}$ $R$ is symmetric  \\
+The proof is divided into two parts: $R$ is symmetric $\xrightarrow{} (\varphi\implies\Box\diamond\varphi)$, and $(\varphi\implies\Box\diamond\varphi)$. $\xrightarrow{}$ $R$ is symmetric
 Assume $R$ symmetric. If the world $w$ we are in has no neighbours, all the statements starting with $\Box$ are vacuously true, including $\Box\diamond\varphi$. 
 If the world $w$ has at least one neighbour, because $R$ is symmetric, each neighbour of $w$ $w_i$ will have $w$ as its neighbour. If $\varphi$ holds in $w$, then $\diamond\varphi$ must hold in each neighbor $w_i$. This is the case, since thanks to the symmetric property, each world $w_i$ has $w$ as his neighbour, where $\varphi$ is true. \\
 We now prove the opposite direction, assume for contradiction that $R$ isn't symmetric, let's create the following non symmetric model:
