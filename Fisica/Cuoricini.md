@@ -1,7 +1,7 @@
 1. $p\ V = n\ R\ T$ [[2.7 Legge dei gas perfetti| legge dei gas perfetti]]
 2. $\Delta U = Q - W$ [[2.5 Primo principio della termodinamica#Primo principio|primo principio della termodinamica]]
 3. $\vec F = m \vec a$  [[1.1 Princìpi della dinamica#Seconda legge della dinamica|secondo princìpio della dinamica]]
-4. $\vec F = -G\ \frac{m_1\ m_2}{d^2}\ \hat r$ [[1.10 Gravitazione universale | gravitazione universale]]
+4. $\vec F = -G\ \frac{m_1\ m_2}{d^2}\ \hat r$ [[1.11 Gravitazione universale| gravitazione universale]]
 5. $U = n\ c_v \ T$ [[2.3 Energia interna di un gas | energia interna di un gas]]
 6. $\vec F_{1 \rightarrow 2} = -\vec F_{2 \rightarrow 1}$ [[1.1 Princìpi della dinamica#Terzo princìpio della dinamica| terza legge della dinamica]]
 7. $\frac{d^2 \theta}{dt^2} + \omega^2 \theta = 0$ [[1.3 Moto armonico | moto armonico]]

@@ -39,15 +39,15 @@ c_a m_a\Delta T_a = 2c_a 2m_a\Delta T_b \\
 \Delta T_a = 4\Delta T_b
 \end{gather*}$$
 8. L'acqua perché ha una capacità termica minore, e abbiamo che $\Delta T = \frac{Q}{c\ m}$
-9. Ogni persona viva all'interno della stanza ha prodotto calore
+9. Ogni persona (viva) all'interno della stanza ha prodotto calore
 10. Quanto si dilata il liquido all'interno in funzione della temperatura
-11. Sì ma la scala non sarebbe lineare perché dovremmo tenere in conto della dilatazione del vetro
+11. Forse sì ma la scala non sarebbe lineare perché dovremmo tenere in conto della dilatazione del vetro
 12. I gas perfetti seguono la legge $pV = nRT$ solamente a temperature vicine allo 0 (???)
 13. Perché dovrebbe, la temperatura è sempre quella (???)
 14. Sì
 15. Rimane costante
 16. Inerzia termica, e il fatto che in profondità non arriva abbastanza luce dal sole perché si verifichi irraggiamento
-17. La differenza di temperatura è raddoppiata, quindi il calore trasmesso raddoppierà a sua volta
+17. La differenza di temperatura è raddoppiata (da 10 a 20 Kelvin/Celsius), quindi il calore trasmesso raddoppierà a sua volta
 18. Sì
 19. Sì
 20. No e No
